@@ -1,0 +1,37 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Arial", sans-serif;
+}
+
+main {
+  display: flex;
+  align-items: center;
+}
+
+span {
+  margin-right: 8px;
+}
+
+output {
+  min-width: 32px;
+  min-height: 16px;
+  padding: 4px 8px;
+  text-align: center;
+  background-color: #dedede;
+  border: 1px solid #aaaaaa;
+  border-radius: 5px;
+}
+
+footer {
+  margin-top: 32px;
+}
