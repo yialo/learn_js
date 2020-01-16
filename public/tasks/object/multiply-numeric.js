@@ -1,3 +1,4 @@
+// https://learn.javascript.ru/task/multiply-numeric
 'use strict';
 
 const multiplyNumeric = (target) => {

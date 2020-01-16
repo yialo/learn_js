@@ -1,3 +1,4 @@
+// https://learn.javascript.ru/task/is-empty
 'use strict';
 
 const isEmpty = (target) => {
