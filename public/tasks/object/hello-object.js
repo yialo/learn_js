@@ -1,3 +1,4 @@
+// https://learn.javascript.ru/task/hello-object
 'use strict';
 
 const obj = {};
