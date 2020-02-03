@@ -15,5 +15,4 @@ function checkIsPrime(num) {
   return `Число ${num} является ${j === 1 ? 'составным' : 'простым'}`;
 }
 
-const $output = document.querySelector('main output');
-$output.textContent = checkIsPrime(3);
+console.log(checkIsPrime(3));
