@@ -17,5 +17,4 @@ function getGreatestCommonFactor(a, b) {
   return a + b;
 }
 
-const $output = document.querySelector('main output');
-$output.textContent = getGreatestCommonFactor(30, 18);
+console.log(getGreatestCommonFactor(30, 18));
