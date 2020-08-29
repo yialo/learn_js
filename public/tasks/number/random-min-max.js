@@ -5,4 +5,4 @@ function random(min, max) {
   return min + delta * Math.random();
 }
 
-alert(random(8, 14));
+console.log(random(8, 14));

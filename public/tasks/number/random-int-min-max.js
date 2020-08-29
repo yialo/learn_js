@@ -1,9 +1,12 @@
 'use strict';
 
+/**
+ * @see https://learn.javascript.ru/task/random-int-min-max
+ */
+
 function randomInteger(min, max) {
-  const rand = Math.random();
-  const scaledRandomInt = Math.floor(rand * (max - min + 1));
-  return min + scaledRandomInt;
+  const scaledRandom = min + Math.random() * (max - min + 1);
+  return Math.floor(scaledRandom);
 }
 
-alert(randomInteger(1, 3));
+console.log(randomInteger(1, 3));
