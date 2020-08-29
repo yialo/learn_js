@@ -10,3 +10,5 @@ function randomInteger(min, max) {
 }
 
 console.log(randomInteger(1, 3));
+
+module.exports = randomInteger;
