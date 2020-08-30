@@ -1,5 +1,8 @@
 {
-  "license": "ISC",
+  "devDependencies": {
+    "jest": "26.4.2",
+    "live-server": "1.2.1"
+  },
   "name": "learn-js_workbook",
   "private": true,
   "repository": {
@@ -7,10 +10,7 @@
     "url": "git+https://github.com/yialo/learn-js_workbook.git"
   },
   "scripts": {
-    "start": "live-server ./public/ --host=127.0.0.1 --port=5000"
-  },
-  "version": "1.0.0",
-  "devDependencies": {
-    "live-server": "1.2.1"
+    "start": "live-server ./public/ --host=127.0.0.1 --port=5000",
+    "test": "jest"
   }
 }
