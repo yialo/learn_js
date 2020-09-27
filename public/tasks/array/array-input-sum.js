@@ -1,5 +1,9 @@
 'use strict';
 
+/**
+ * @see {@link https://learn.javascript.ru/task/array-input-sum}
+ */
+
 const sumInput = () => {
   const inputs = [];
 
