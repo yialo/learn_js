@@ -1,6 +1,6 @@
 'use strict';
 
-const { getMaxSubSum } = require('./maximal-subarray');
+const { getMaxSubSumSlow: getMaxSubSum } = require('./maximal-subarray');
 
 describe('getMaxSubSum', () => {
   test.each([

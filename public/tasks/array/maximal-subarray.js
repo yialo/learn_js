@@ -6,7 +6,7 @@
 
 const getArraySum = (arr) => arr.reduce((acc, it) => acc + it);
 
-exports.getMaxSubSum = (arr) => {
+exports.getMaxSubSumSlow = (arr) => {
   if (arr.every(el => el < 0) ) {
     return 0;
   }
@@ -24,10 +24,10 @@ exports.getMaxSubSum = (arr) => {
 
   for (let i = 0; i < subArrs.length; i++) {
     const nextSum = getArraySum(subArrs[i]);
-    if (nextSum > maxSum) {
-      maxSum = nextSum;
-    }
+    maxSum = Math.max(maxSum, nextSum);
   }
 
   return maxSum;
 };
+
+exports.getMaxSubSumFast = (arr) => {};
