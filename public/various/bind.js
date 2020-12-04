@@ -1,5 +1,5 @@
 /* eslint-env node */
-/* eslint-disable prefer-rest-params, strict */
+/* eslint-disable prefer-rest-params */
 'use strict';
 
 const person = {
