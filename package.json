@@ -1,16 +1,16 @@
 {
+  "name": "learn_js",
+  "private": true,
+  "scripts": {
+    "start": "live-server ./public/ --host=127.0.0.1 --port=5000",
+    "test": "jest"
+  },
   "devDependencies": {
     "jest": "26.4.2",
     "live-server": "1.2.1"
   },
-  "name": "learn-js_workbook",
-  "private": true,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/yialo/learn-js_workbook.git"
-  },
-  "scripts": {
-    "start": "live-server ./public/ --host=127.0.0.1 --port=5000",
-    "test": "jest"
   }
 }
