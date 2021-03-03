@@ -1,4 +1,5 @@
 {
+  "name": "learn_js",
   "private": true,
   "scripts": {
     "start": "live-server ./public/ --host=127.0.0.1 --port=5000",
