@@ -6,7 +6,7 @@
     "test": "jest"
   },
   "devDependencies": {
-    "jest": "26.4.2",
+    "jest": "27.5.1",
     "live-server": "1.2.1"
   },
   "repository": {
