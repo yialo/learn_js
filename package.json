@@ -2,12 +2,12 @@
   "name": "learn_js",
   "private": true,
   "scripts": {
-    "start": "live-server ./public/ --host=127.0.0.1 --port=5000",
+    "start": "serve ./public/ -p 5000",
     "test": "jest"
   },
   "devDependencies": {
     "jest": "27.5.1",
-    "live-server": "1.2.1"
+    "serve": "13.0.2"
   },
   "repository": {
     "type": "git",
