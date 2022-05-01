@@ -17,7 +17,9 @@ export class LinkedList {
 
   shift() {}
 
-  removeValue() {}
+  push() {}
+
+  pop() {}
 
   iterate() {}
 
